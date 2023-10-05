@@ -2,7 +2,7 @@
 version: "3"
 services: 
   springBootApp: 
-    image: paakhi/midproj:1.0
+    image: zamo12345/project03:1.0
     container_name: docker-postgres-springboot-app
     environment: 
       - POSTGRES_HOST=docker-postgres-springboot-demo
